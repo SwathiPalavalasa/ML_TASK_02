@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 # Load dataset
-data = pd.read_csv("C:/Users/user/OneDrive/Desktop/mall_customers.csv")
+data = pd.read_csv("C:/path/to/datset/mall_customers.csv")
 
 # Select features
 X = data[["Annual Income (k$)", "Spending Score (1-100)"]]
